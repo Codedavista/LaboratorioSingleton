@@ -12,3 +12,8 @@ R = Que la instancia se crea en cuanto la clase se carga en memoria, incluso si 
 
 - ¿Qué problema puede aparecer si el Singleton guarda estado global y la aplicación crece mucho?
 R = Que hay demasiado acomplamiento, o sea, que muchas clases dependerían directamente del Singleton, por lo que sería difícil saber que parte del código modificó el estado. También complica las pruebas unitarias porque el estado de una prueba afecta a la siguiente.
+
+- Resultado de impresión en terminal:
+Theme: Dark, Language: EN
+Theme: Dark, Language: EN
+Are these the same instance? true
